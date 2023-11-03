@@ -1,0 +1,346 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/*  ------------Main body---------------  */
+
+body{
+  width: 100%;
+  height: 50vh;
+  background-image: url(images/bg-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;  
+}
+
+/*  ---Sectiom-1------menu-bar------------  */
+.menu-bar{
+  width: 100%;
+  padding: 6px;
+  text-align: center;
+  background: rgb(56, 55, 55) 5px;
+  position: fixed;
+  top: 0;
+}
+.menu-bar a{
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  font-size: 15px;
+  border-radius: 2px;
+  display: inline-block;
+  text-decoration: none;
+  border: 0.5px solid #fff;
+  box-shadow: 2px solid #fff;
+} 
+.menu-bar a:hover{
+  background-color: rgb(90, 88, 88);
+}
+
+/* ---Sectiom-2------content-con------------  */
+
+.content-con{
+  margin: 20%;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  font-style: bold;   
+}
+
+/* ---Sectiom-3------layout-content------------ */
+
+.layout-content{
+  width: 100%;
+  height: 90vh;
+  margin-top: 22%;
+  border-top-width: 10px;
+  display: flex;
+}
+
+
+ .layout-1{
+  margin: 75px;
+  height: 75%;
+  font-size: 20px;
+  border: 0px solid gray;
+  justify-content: space-between;
+  background-color: rgb(244, 242, 242);
+}
+.layout-1 h2{
+  padding: 10px;
+  color:  rgb(4, 187, 4);;
+}
+.layout-1 p{
+  padding: 10px;
+  line-height: 2;
+  font-size: 15px;
+ }
+.layout-1 button{
+  margin: 100px;
+  margin-top: 10px;
+  background-color: rgb(4, 187, 4);
+  color: white;
+  padding: 15px;
+  font-size: large;
+}
+
+
+.layout-2{
+  margin: 75px;
+  height: 75%;
+  font-size: 20px;
+  border: 0px solid gray;
+  justify-content: space-between;
+  background-color: rgb(244, 242, 242);
+}
+.layout-2 h2{
+  padding: 10px;
+  color:  rgb(21, 171, 231);
+ }
+ .layout-2 p{
+  padding: 10px;
+  line-height: 2;
+  font-size: 15px;
+ }
+.layout-2 button{
+  margin: 100px;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(21, 171, 231);
+  padding: 15px;
+  font-size: large;
+}
+
+
+.layout-3{
+  margin: 75px;
+  height: 75%;
+  font-size: 20px;
+  border: 0px solid gray;
+  justify-content: space-between;
+  background-color: rgb(244, 242, 242);
+} 
+.layout-3 h2{
+  padding: 10px;
+  color: rgb(72, 38, 4);
+ }
+ .layout-3 p{
+  padding: 10px;
+  line-height: 2;
+  font-size: 15px;
+ }
+.layout-3 button{
+  margin: 100px; 
+  margin-top: 10px;
+  color: #fff;
+  background-color: rgb(72, 38, 4);
+  padding: 15px;
+  font-size: large;
+}
+
+/* ---Sectiom-4------layout-content------------ */
+
+#next-layout{
+  margin: 75px;
+  height: 220%;
+  font-size: 20px;
+  display: flex;
+}
+
+#next-layout .img-content{
+  margin: 70px;
+  height: 76%;
+  text-align: center;
+  justify-content: space-between;
+  border: 0px solid gray;
+  background-color: rgb(244, 242, 242);
+}
+
+#next-layout .img-content p{
+  padding: 15px;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+#next-layout .img-content button{
+  padding: 15px;
+  margin-left: 300px;
+  margin-top: 10px;
+  width: 30%;
+  color: black;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid rgb(179, 174, 174);   
+}
+
+/* ---Sectiom-5------image-content------------ */
+
+.text-caption{
+  width: 100%;
+  height: 40vh;
+  opacity: 2;
+  text-align: center;
+  background-image: url(images/bg-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+.text-caption h1{
+  height: 10px;
+  padding: 45px;
+  margin: 30px;
+  font-size: 55px;
+  font-weight: 10px;
+  color: #fff;
+}
+.text-caption p{
+  height: 5px;
+  
+  margin: 10px;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 10px;
+  color: #fff;
+}
+
+/* -----Section-6----Multiple using layout-------*/
+
+.multiple-layout{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  margin-top: 5%;
+}
+
+/*---Sun-section6-1---------Columbn=1----------*/
+
+.multiple-layout .column-one{
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 15px;
+   }
+   .multiple-layout .column-one{
+   margin: 60px;
+   padding: 1px;
+   height: 62%;
+   font-size: 15px;
+   border: 0px solid gray;
+   justify-content: space-between;
+   background-color: rgb(244, 242, 242);
+   }
+   
+/*---Sun-section6-2---------Columbn=2----------*/
+
+   .multiple-layout .column-two{
+  padding: 10px;
+  line-height: 1.6;
+  font-size: 15px;
+   }
+   .multiple-layout .column-two{
+  margin: 60px;
+  height: 62%;
+  padding: 1px;
+  font-size: 15px;
+  border: 0px solid gray;
+  justify-content: space-between;
+  background-color: rgb(244, 242, 242);
+  }
+  .multiple-layout .column-two button{
+    padding: 10px;
+    width: 40%;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: black;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid rgb(179, 174, 174);  
+    }
+
+    
+/*---Sun-section6-3---------Columbn=3----------*/
+
+
+   .multiple-layout .column-three{
+  padding: 10px;
+  line-height: 1.6;
+  font-size: 15px;
+   }
+   .multiple-layout .column-three{
+  margin: 60px;
+  height: 62%;
+  padding: 1px;
+  font-size: 15px;
+  border: 0px solid gray;
+  justify-content: space-between;
+  background-color: rgb(244, 242, 242);
+  }
+
+
+/*---Sun-section6-4---------Columbn=4----------*/
+
+
+   .multiple-layout .column-four{
+  padding: 10px;
+  line-height: 1.6;
+  font-size: 15px;
+   }
+   .multiple-layout .column-four{
+  margin: 60px;
+  height: 62%;
+  padding: 1px;
+  font-size: 15px;
+  border: 0px solid gray;
+  justify-content: space-between;
+  background-color: rgb(244, 242, 242);
+  }
+  
+  .multiple-layout .column-four button{
+  padding: 10px;
+  width: 40%;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 10px;
+  color: black;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid rgb(179, 174, 174);  
+  }
+
+/*----Section-7-------Single using layout-------*/
+  
+
+.single-laout{
+    height: 90vh;
+    margin-top: 0%;
+
+  }
+  
+  .single-laout img{
+    margin: 75px;
+    height: 75%;
+    font-size: 20px;
+    border: 0px solid gray;
+    justify-content: space-between;
+    background-color: rgb(244, 242, 242);
+  }
+  .single-laout h2{
+    padding: 10px;
+  }
+  .single-laout p{
+    padding: 10px;
+    line-height: 2;
+    font-size: 15px;
+   }
+   .single-laout button{
+    margin: 100px;
+    margin-top: 10px;
+    color: white;
+    padding: 15px;
+    font-size: large;
+  }
+  
+  
